@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15;
+    margin: 0 auto;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    /* новый тег */
+    z-index: 5;
+}
+
+.nav{
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    background: lightgrey;
+}
+
+.nav__logo{
+    font-size: 20px;
+    color: #323232;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav__logo span{
+    color: blue;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    gap: 40px;
+}
+
+.nav__list-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #323232;
+    font-size: 18px;
+}
+
+/* -------------------- */
+
+section{
+    min-height: 500px;
+    border: 1px solid black;
+    /* Определение род. элемента */
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    /* top: ; */
+    /* left: ; */
+    /* right: ; */
+    /* bottom: ; */
+}
+
+.topLeft{
+    top: 0;
+    left: 0;
+}
+
+.topRight{
+    right: 0;
+    top: 0;
+}
+
+.bottomLeft{
+    left: 0;
+    bottom: 0;
+}
+
+.bottomRight{
+    right: 0;
+    bottom: 0; 
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightcoral ;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+
+
+
+
+
+
+
